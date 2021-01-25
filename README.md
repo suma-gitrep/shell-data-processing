@@ -1,5 +1,14 @@
 # Shell Data Processing 
 
+The command used to get your data : curl "https://americanliterature.com/author/oscar-wilde/poem/the-disciple" -0 data.txt
+<br>
+The comand which is used to sort the data is : tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
+<br>
+[Data-file](https://github.com/suma-gitrep/shell-data-processing/blob/master/data.txt)
+<br>
+[Result-file](https://github.com/suma-gitrep/shell-data-processing/blob/master/result.txt)
+
+
 ## Markdown Syntax
 
 - Heading - To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level.
