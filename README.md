@@ -1,4 +1,5 @@
 # Shell Data Processing 
+
 The command used to get your data : curl "https://americanliterature.com/author/oscar-wilde/poem/the-disciple" -0 data.txt
 <br>
 The comand which is used to sort the data is : tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
@@ -6,6 +7,36 @@ The comand which is used to sort the data is : tr ' ' '\12' < data.txt | sort | 
 [Data-file](https://github.com/suma-gitrep/shell-data-processing/blob/master/data.txt)
 <br>
 [Result-file](https://github.com/suma-gitrep/shell-data-processing/blob/master/result.txt)
+
+
+## Basic commands 
+
+- creates a new directory
+
+```Bash 
+mkdir 
+``` 
+
+- deletes the specified empty directory
+
+```Bash 
+ rmdir 
+ ``` 
+
+- deletes a specified directory containing files
+ ```Bash 
+ rm  
+ ``` 
+
+- shows the current working directory
+```Bash 
+pwd 
+``` 
+
+- displays the contents of file
+```Bash 
+ cat 
+ ``` 
 
 ## Markdown Syntax
 
